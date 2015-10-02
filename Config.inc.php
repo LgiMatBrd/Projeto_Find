@@ -35,7 +35,7 @@ function __autoload($Class) {
     endforeach;
 
     if (!$iDir):
-        trigger_error("Não foi possível incluir {$Class}.class.php", E_USER_ERROR);
+        trigger_error("Não foi possível incluir o arquivo.", E_USER_ERROR);
         die;
     endif;
 }
